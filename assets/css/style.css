@@ -32,8 +32,7 @@ body {
 
 .form_zone {
   display: grid;
-  justify-content: center;
-  align-items: center;
+  justify-items: center;
   height: 100vh;
   box-shadow: -5px 0px 20px 0px rgba(0, 0, 0, 0.25);
   z-index: 1;
@@ -112,7 +111,7 @@ body {
       }
     }
   }
-  a {
+  form a {
     color: var(--secondary-color);
     font-size: 18px;
     font-weight: 600;
@@ -141,6 +140,26 @@ body {
         background-color: var(--secondary-color);
         transition: 0.3s;
       }
+    }
+  }
+}
+
+.register_zone {
+  border-top: 1px solid var(--primary-color);
+  padding-top: 1rem;
+  width: 80%;
+  text-align: center;
+  margin: 1rem auto 0 auto;
+
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: 0.3s;
+
+    &:hover {
+      color: var(--secondary-color);
+      transition: 0.3s;
     }
   }
 }

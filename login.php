@@ -30,11 +30,11 @@
                 <form action="" method="post">
                     <div class="input email">
                         <label for="email">Adresse email de connexion</label>
-                        <input type="email" placeholder="Ex: johndoe@gmail.com" required autofocus autocomplete>
+                        <input type="email" id="email" placeholder="Ex: johndoe@gmail.com" required autofocus autocomplete>
                     </div>
                     <div class="input password">
                         <label for="password">Mot de passe</label>
-                        <input type="password" placeholder="Votre mot de passe" required autocomplete>
+                        <input type="password" id="password" placeholder="Votre mot de passe" required autocomplete>
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
                             <path
                                 d="M8 1.45999C8.97004 1.1518 9.98218 0.996607 11 0.999993C15.182 0.999993 18.028 3.49999 19.725 5.70399C20.575 6.80999 21 7.36099 21 8.99999C21 10.64 20.575 11.191 19.725 12.296C18.028 14.5 15.182 17 11 17C6.818 17 3.972 14.5 2.275 12.296C1.425 11.192 1 10.639 1 8.99999C1 7.35999 1.425 6.80899 2.275 5.70399C2.7935 5.02682 3.37074 4.39671 4 3.82099"
@@ -49,6 +49,9 @@
                         <input type="submit" value="Connexion">
                     </div>
                 </form>
+            </div>
+            <div class="register_zone">
+                <a href="#">S'enregistrer gratuitement</a>
             </div>
         </div>
     </div>
